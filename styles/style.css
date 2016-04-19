@@ -65,7 +65,7 @@ body {
 
 /* This is the section for the articles containing price and details.*/
 .pricingDetail {
-  position: relative;
+  position:relative;
   text-align: center;
 }
 .pricingDetail__box {
@@ -188,7 +188,7 @@ body {
 /* This area is set to 480p and above*/
 
 @media only screen
- and (min-width: 480px){
+ and (min-width: 479px){
 
    .topImage {
 
@@ -213,5 +213,43 @@ body {
        padding-left: 4.5rem;
        padding-right: 4.5rem;
      }
+
+}
+
+@media only screen
+  and (min-width:768px){
+
+    .pricingDetail {
+      font-size: 0;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .pricingDetail__box {
+      display: inline-block;
+       width: 33.333%;
+       font-size: 1.7rem;
+       padding-left: 1rem;
+       padding-right: 1rem;
+    }
+
+    .secondaryInfo {
+      font-size: 0;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .secondaryInfo__box {
+      display: inline-block;
+       width: 50%;
+       font-size: 1.8rem;
+       padding-left: 1rem;
+       padding-right: 1rem;
+    }
+
+    .secondaryInfo__text {
+      font-size: 1.4rem;
+      color: rgba(0, 0, 0, 0.7)
+    }
 
 }
