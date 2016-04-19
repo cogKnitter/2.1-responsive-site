@@ -38,13 +38,13 @@ body {
 }
   /* Responsive image with text above*/
 .topImage {
-  position: relative;
   height: 20rem;
   overflow: hidden;
 }
 
 .topImage__pic {
-  position: absolute;
+
+
 }
 
 .topImage__title  {
@@ -250,6 +250,19 @@ body {
     .secondaryInfo__text {
       font-size: 1.4rem;
       color: rgba(0, 0, 0, 0.7)
+    }
+
+}
+
+@media only screen
+  and (min-width:979px){
+    .wrapper {
+      width: 80%;
+      margin: auto;
+    }
+
+    .topImage__pic {
+      width: 100%;
     }
 
 }
